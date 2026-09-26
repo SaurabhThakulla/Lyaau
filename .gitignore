@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Expo & Web Builds
+.expo/
+client/.expo/
+client/dist/
+client/web-build/
+client/expo-env.d.ts
+
+# Native Android / iOS builds
+client/android/build/
+client/android/.gradle/
+client/android/.kotlin/
+client/android/app/build/
+client/android/local.properties
+client/android/*.iml
+client/android/.cxx/
+client/android/.idea/
+client/ios/
+
+# Environment files
+.env
+.env*.local
+*.env
+*.local
+
+# Logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# AI Agents & IDE metadata
+.claude/
+.gemini/
+.agents/
+.vscode/
+.cursor/
+.windsurf/
+CLAUDE.md
+AGENTS.md
+GEMINI.md
